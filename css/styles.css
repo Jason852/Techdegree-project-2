@@ -1,0 +1,54 @@
+/* Web Fonts----- */
+
+
+
+
+/* Base Styles ---------- */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: lightgrey;
+  font: 1em/1.5;
+}
+ nav {
+   float: right;
+   display: block;
+ }
+
+
+/* Pseudo-classes --------- */
+
+a:link {
+  color: darkgray;
+}
+
+a:visited {
+    color: cornflowerblue;
+}
+
+a:hover {
+  color: orange;
+}
+
+/* Layout Styles ---------- */
+
+.student-name {
+  width: 5%;
+}
+
+
+/* Floated Columns ------------- */
+
+.marketing,
+.search,
+.travel,
+.spots,
+.photos,
+.calculator {
+  width: 30%;
+}
+
+/* Media Queries ----------- */
