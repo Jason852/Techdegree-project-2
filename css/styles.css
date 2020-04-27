@@ -3,52 +3,127 @@
 
 
 
+
 /* Base Styles ---------- */
 
 * {
+  margin: 1px;
   box-sizing: border-box;
 }
 
 body {
-  background: lightgrey;
-  font: 1em/1.5;
+  font-family: 'Alegreya Sans', sans-serif;
+  text-align: center;
+  background: whitesmoke;
 }
  nav {
-   float: right;
    display: block;
+   margin-bottom: 20px;
  }
 
+ .main-header {
+   text-align: center;
+
+ }
+
+ h1 {
+   text-align: center;
+   font-size: 1.8rem;
+   line-height: 1.1;
+   margin-top: 18px;
+   margin-bottom: 15px;
+
+ }
+
+ h2 {
+   font-size: 1.20rem;
+   text-transform: uppercase;
+   padding-top: 20px;
+   padding-bottom: 20px;
+ }
+
+ ul {
+  text-align: center;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: 1.0rem;
+  padding: 0;
+  color: darkgray;
+ }
+
+ul li {
+  background-color: white;
+  line-height: 2.0;
+  margin-bottom: 5px;
+  color: darkgray;
+  font-weight: bold;
+}
+.primary-content {
+  text-align: center;
+}
+
+img {
+  max-width: 90%;
+}
+
+.intro-pic {
+  width: 75%;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.intro {
+  font-size: 1.12rem;
+  margin-bottom: 25px;
+}
+
+.portfolio {
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+
+.portfolio p,
+h3,
+img {
+  margin-bottom: 10px;
+}
+.footer-nav-bar {
+  border-top: 2px solid darkgray;
+}
 
 /* Pseudo-classes --------- */
 
 a:link {
+  text-decoration: none;
   color: darkgray;
 }
 
-a:visited {
-    color: cornflowerblue;
-}
+/* a:visited {
+  color: cornflowerblue;
+} ----*/
 
-a:hover {
-  color: orange;
-}
+/* Main Styles ----- */
+
+
+
+
 
 /* Layout Styles ---------- */
 
-.student-name {
-  width: 5%;
-}
+
+
+
 
 
 /* Floated Columns ------------- */
 
-.marketing,
-.search,
-.travel,
-.spots,
-.photos,
-.calculator {
-  width: 30%;
-}
+
+
+
+
 
 /* Media Queries ----------- */
