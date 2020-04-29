@@ -151,6 +151,7 @@ img {
   }
 
 /* Header 768px */
+
   .top-h1 {
     font-size: 2.2rem;
     padding-top: 0.8rem;
@@ -176,7 +177,8 @@ img {
   .intro p{
     width: 65%;
     height: auto;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+    text-align: left;
   }
 
   /* Portfolio */
@@ -186,14 +188,14 @@ img {
     margin-right: 0px;
     margin-left: 0px;
   }
-
   .block-marketing {
     width: 45%;
     height: auto;
     float: left;
     background: white;
-    margin-right; .25rem;
+    margin-right: .25rem;
     margin-left: .25rem;
+    padding-right: 0;
   }
 
   .block-search {
@@ -212,6 +214,7 @@ img {
     background: white;
     margin-right: .25rem;
     margin-left: .25rem;
+    padding-right: 0
   }
 
   .block-spots {
@@ -228,8 +231,9 @@ img {
     height: auto;
     float: left;
     background: white;
-    margin-right; .25rem;
+    margin-right: .25rem;
     margin-left: .25rem;
+    padding-right: 0;
   }
 
   .block-calculator {
@@ -239,6 +243,152 @@ img {
     background: white;
     margin right: .25rem;
     margin-left: .25rem;
+    padding: 0;
+  }
+
+  .contact h2,
+    p {
+    font-size: 1.45rem;
+  }
+
+  .foot-h1 {
+    padding-top: 0.75rem;
+  }
+
+  .foot-nav-ul li:nth-child(-n + 3) {
+    display: block;
+  }
+
+/*.foot-nav-ul li:last-child{
+    display: none;
+  } */
+
+}
+
+
+/* Media query 1024px */
+
+@media (min-width: 1024px) {
+  body {
+    margin: 14px;
+  }
+
+  .main-header {
+    margin-right: 0;
+  }
+
+  .top-h1 {
+    float: left;
+    margin: 15px 0 0;
+    padding-top: 0px;
+  }
+
+  .nav {
+    margin-right: 14px;
+    padding-left: 38rem;
+  }
+
+  .top-nav {
+    margin-right: 0;
+  }
+
+  .nav a {
+    text-align: right;
+    margin-right: 0;
+  }
+
+  .intro {
+    margin-right: 0px;
+    margin-left: 0px;
+    color: darkgray;
+  }
+
+  .intro p{
+    padding-right: 10px;
+  }
+
+  .intro-pic {
+    margin-left: 5px;
+  }
+
+  .portfolio {
+    height: 60rem;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  .block-marketing {
+    width: 31%;
+    height: auto;
+    float: left;
+    background: white;
+    margin-right: .25rem;
+    margin-left: .25rem;
+    padding-right: 0;
+  }
+
+  .block-search {
+    width: 31%;
+    height: auto;
+    float: right;
+    background: white;
+    margin: 8px 4px;
+    padding-right: 0;
+  }
+
+  .block-search p{
+    margin-bottom: 0;
+  }
+
+  .block-travel {
+    width: 31%;
+    height: auto;
+    float: center;
+    background: white;
+    margin-right: .25rem;
+    margin-left: 20px;
+    padding-right: 0
+  }
+
+  .block-spots {
+    width: 31%;
+    height: auto;
+    float: left;
+    background: white;
+    margin right: .25rem;
+    margin-left: .25rem;
+  }
+
+  .block-photos {
+    width: 31%;
+    height: auto;
+    float: center;
+    background: white;
+    margin-right: .25rem;
+    margin-left: 20px;
+    padding-right: 0;
+  }
+
+  .block-calculator {
+    width: 31%;
+    height: auto;
+    float: right;
+    background: white;
+    margin right: .25rem;
+    margin-left: .25rem;
+    padding: 0;
+  }
+
+
+  .contact p {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    font-size: 1.25rem;
+  }
+
+  a {
+    font-weight: bold;
+    color: slategray;
   }
 
 }
