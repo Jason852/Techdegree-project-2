@@ -19,7 +19,6 @@ body {
 
  .main-header {
    text-align: center;
-
  }
 
  h1 {
@@ -28,7 +27,6 @@ body {
    line-height: 1.1;
    margin-top: 1.3rem;
    margin-bottom: 1.3rem;
-
  }
 
  h2 {
@@ -87,6 +85,8 @@ img {
   margin-bottom: 2rem;
 }
 
+/* Portfolio 320px */
+
 .portfolio {
   background-color: white;
   line-height: 1.5;
@@ -110,6 +110,8 @@ img {
   margin-right: 1.7rem;
 }
 
+/* Contact 320px */
+
 .contact p {
   font-size: 1.1rem;
   color: darkgray;
@@ -119,28 +121,25 @@ img {
   margin-left: 1rem;
 }
 
+/* Footer 320px*/
+
 .footer-nav-bar {
   border-top: 2px solid darkgray;
   margin-left: 1rem;
   margin-right: 1rem;
+  padding-top: 1.2rem;
+  padding-right: 5px;
   list-style: none;
+}
+
+.foot-nav-ul {
+  display: none;
 }
 
 .foot-h1 {
   float: left;
-  font-size: 1.2rem;
-}
-
-.foot-nav-ul li {
-  list-style: none;
-  float: right;
-  background: whitesmoke;
-  padding-top: 0.75rem;
-}
-
-.foot-nav-ul li:nth-child(-n + 3) {
-  display: none;
-  font-weight: bold;
+  margin-top: 0px;
+  font-size: 1.2rem
 }
 
 /* Media Query responsive 768px */
@@ -246,23 +245,30 @@ img {
     padding: 0;
   }
 
+  /* Contact 768px */
+
   .contact h2,
     p {
     font-size: 1.45rem;
   }
 
+/* Footer 768px */
   .foot-h1 {
-    padding-top: 0.75rem;
+    padding-top: 0.65rem;
   }
 
-  .foot-nav-ul li:nth-child(-n + 3) {
-    display: block;
-  }
-
-/*.foot-nav-ul li:last-child{
+  .footer-back {
     display: none;
-  } */
+  }
 
+  .foot-nav-ul {
+    display: inline-block;
+  }
+
+  .foot-nav-ul li {
+    display: inline;
+    background: whitesmoke;
+  }
 }
 
 
@@ -310,6 +316,8 @@ img {
   .intro-pic {
     margin-left: 5px;
   }
+
+/* Portfolio 1024px */
 
   .portfolio {
     height: 60rem;
@@ -376,6 +384,7 @@ img {
     padding: 0;
   }
 
+/* Contact and Footer 1024px */
   .contact p {
     padding-left: 10rem;
     padding-right: 10rem;

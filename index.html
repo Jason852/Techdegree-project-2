@@ -7,13 +7,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header class="main-header">
+    <header class="main-header" id="top">
       <nav class="top-nav">
         <h1 class="top-h1">Jason Hellerman</h1>
         <ul class="nav">
           <li><a href="index.html">Home</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -23,7 +23,7 @@
           <img class="intro-pic" src="images/responsive-layout-profile.png" alt="intro-pic">
           <p>Hi, I am a student of front end web development currently specializing in html and css. I recently finished Unit 2 at TeamTreeHouse and feeling like I know all there is to know. Lol not really.  Actually I feel like I have so much more to learn but definitley enjoying the continuing process of learning more.<p>
         </div>
-        <div class="portfolio">
+        <div class="portfolio" id="portfolio">
           <h2>Portfolio</h2>
             <div class="block-marketing">
               <img src="images/portfolio-1.png" class="portfolio-image" alt="photo-1">
@@ -57,7 +57,7 @@
             </div>
         </div>
       </div>
-      <div class="contact">
+      <div id="contact" class="contact">
         <h2>Contact</h2>
         <p>If you're interested in chatting or want more information about what I have been working on, I'd love to hear from you!</p>
         <p>Phone <a href="tel:954-555-1234">954 555 1234</a></p>
@@ -68,11 +68,11 @@
       <nav class="footer-nav-bar">
         <h1 class="foot-h1">Jason Hellerman</h1>
         <ul class="foot-nav-ul">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="index.html">Back to top</a><li>
+          <li><a href="#top">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
+        <a href="#top" class="footer-back">Back to top</a>
       </nav>
     </footer>
   </body>
