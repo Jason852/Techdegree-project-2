@@ -19,7 +19,6 @@ body {
 
  .main-header {
    text-align: center;
-
  }
 
  h1 {
@@ -92,9 +91,10 @@ img {
 .portfolio {
   background-color: white;
   line-height: 1.5;
+  width: 100%
   margin-top: 2.5rem;
   margin-bottom: 2rem;
-    padding-top: 1.8rem;
+  padding-top: 1.8rem;
   padding-bottom: 2rem;
 }
 
@@ -108,8 +108,8 @@ img {
   overflow: auto;
   font-size: 1.1rem;
   margin-bottom: 1.5rem;
-  margin-left: 1.7rem;
-  margin-right: 1.7rem;
+  margin-left: 1.2rem;
+  margin-right: 1.2rem;
 }
 
 /* Contact 320px */
@@ -151,6 +151,12 @@ img {
     margin: .5rem;
   }
 
+  .clearfix {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 /* Header 768px */
 
   .top-h1 {
@@ -185,9 +191,8 @@ img {
   /* Portfolio */
 
   .portfolio {
+    width: 100%;
     height: 85rem;
-    margin-right: 0px;
-    margin-left: 0px;
   }
 
   .block-marketing {
@@ -256,16 +261,20 @@ img {
   }
 
 /* Footer 768px */
+
+
   .foot-h1 {
     padding-top: 0.65rem;
   }
 
   .footer-back {
     display: none;
+    float: right;
   }
 
   .foot-nav-ul {
     display: inline-block;
+    float: right;
   }
 
   .foot-nav-ul li {
@@ -273,7 +282,6 @@ img {
     background: whitesmoke;
   }
 }
-
 
 /* Media query 1024px */
 
@@ -323,6 +331,7 @@ img {
 /* Portfolio 1024px */
 
   .portfolio {
+    width: 100%;
     height: 60rem;
     margin-right: 0px;
     margin-bottom: 0px;
