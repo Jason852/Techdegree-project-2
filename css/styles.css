@@ -109,7 +109,7 @@ img {
   font-size: 1.1rem;
   margin-bottom: 1.5rem;
   margin-left: 1.2rem;
-  margin-right: 1.2rem;
+  margin-right: 1.7rem;
 }
 
 /* Contact 320px */
@@ -203,6 +203,7 @@ img {
     margin-right: .25rem;
     margin-left: .25rem;
     padding-right: 0;
+    padding-bottom: 0;
   }
 
   .block-search {
