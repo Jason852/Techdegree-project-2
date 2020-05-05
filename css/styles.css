@@ -200,8 +200,7 @@ img {
     height: auto;
     float: left;
     background: white;
-    margin-right: .25rem;
-    margin-left: .25rem;
+    margin: 0;
     padding-right: 0;
     padding-bottom: 0;
   }
@@ -354,7 +353,7 @@ img {
     height: auto;
     float: right;
     background: white;
-    margin: 8px 4px;
+    margin: 0;
     padding-right: 0;
     padding-bottom: 0px;
   }
@@ -407,5 +406,11 @@ img {
   a {
     font-weight: bold;
     color: slategray;
+  }
+
+  .clearfix {
+    content: "";
+    display: table;
+    clear: both;
   }
 }
